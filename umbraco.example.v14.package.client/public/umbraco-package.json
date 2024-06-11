@@ -1,0 +1,15 @@
+{
+    "$schema": "../../umbraco.example.v14.package.Website/umbraco-package-schema.json",
+    "id": "umbraco.example.v14.package",
+    "name": "umbraco.example.v14.package",
+    "allowPackageTelemetry": true,
+    "version": "1.0.0",
+    "extensions": [
+        {
+          "name": "umbraco.example.v14.package EntryPoint",
+          "alias": "umbraco.example.v14.package.entrypoint",
+          "type": "backofficeEntryPoint",
+          "js": "/app_plugins/umbraco.example.v14.package/umbraco.example.v14.package.js"
+        }
+      ]
+}
